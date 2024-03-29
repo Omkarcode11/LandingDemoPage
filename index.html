@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&family=Inter:wght@100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header id="navbar">
+      <h1 class="logo">Dapper</h1>
+      <ol class="menuList">
+        <li class="menu">Home</li>
+        <li class="menu">About us</li>
+        <li class="menu">Information</li>
+        <li class="menu">More</li>
+        <li class="search menu">
+          <input type="text" class="searchInput" placeholder="Search..." />
+          <svg
+            width="26"
+            class="searchSvg"
+            height="26"
+            viewBox="0 0 26 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M23.6372 25.6055L18.0713 20.0303C17.1962 20.79 16.1752 21.3817 15.0083 21.8054C13.8415 22.2291 12.6018 22.4409 11.2891 22.4409C8.13864 22.4409 5.46951 21.3451 3.28171 19.1537C1.0939 16.9622 0 14.3178 0 11.2204C0 8.12314 1.0939 5.47873 3.28171 3.28724C5.46951 1.09575 8.12405 0 11.2453 0C14.3374 0 16.9701 1.09575 19.1433 3.28724C21.3165 5.47873 22.4031 8.12314 22.4031 11.2204C22.4031 12.4769 22.1989 13.6895 21.7905 14.8583C21.3822 16.0271 20.7696 17.1229 19.9528 18.1456L25.6062 23.7208C25.8687 23.9546 26 24.2541 26 24.6194C26 24.9846 25.8541 25.3133 25.5624 25.6055C25.2999 25.8685 24.979 26 24.5998 26C24.2206 26 23.8997 25.8685 23.6372 25.6055ZM11.2453 19.8111C13.6082 19.8111 15.6209 18.971 17.2837 17.2909C18.9464 15.6107 19.7778 13.5873 19.7778 11.2204C19.7778 8.85364 18.9464 6.83016 17.2837 5.15001C15.6209 3.46987 13.6082 2.62979 11.2453 2.62979C8.85332 2.62979 6.81866 3.46987 5.14134 5.15001C3.46403 6.83016 2.62537 8.85364 2.62537 11.2204C2.62537 13.5873 3.46403 15.6107 5.14134 17.2909C6.81866 18.971 8.85332 19.8111 11.2453 19.8111Z"
+              fill="#ADADAD" />
+          </svg>
+        </li>
+        <li class="hamburger">
+            <svg width="50" height="50" viewBox="0 0 67 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.72222 47.4433C2.66759 47.4433 1.78419 47.0704 1.072 46.3248C0.357334 45.5817 0 44.6599 0 43.5595C0 42.4591 0.357334 41.5373 1.072 40.7943C1.78419 40.0486 2.66759 39.6757 3.72222 39.6757H63.2778C64.3324 39.6757 65.2158 40.0486 65.928 40.7943C66.6427 41.5373 67 42.4591 67 43.5595C67 44.6599 66.6427 45.5817 65.928 46.3248C65.2158 47.0704 64.3324 47.4433 63.2778 47.4433H3.72222ZM3.72222 28.0244C2.66759 28.0244 1.78419 27.6515 1.072 26.9058C0.357334 26.1627 0 25.241 0 24.1406C0 23.0402 0.357334 22.1171 1.072 21.3714C1.78419 20.6283 2.66759 20.2568 3.72222 20.2568H63.2778C64.3324 20.2568 65.2158 20.6283 65.928 21.3714C66.6427 22.1171 67 23.0402 67 24.1406C67 25.241 66.6427 26.1627 65.928 26.9058C65.2158 27.6515 64.3324 28.0244 63.2778 28.0244H3.72222ZM3.72222 8.60543C2.66759 8.60543 1.78419 8.23388 1.072 7.49079C0.357334 6.7451 0 5.82205 0 4.72165C0 3.62124 0.357334 2.69819 1.072 1.95251C1.78419 1.20941 2.66759 0.83786 3.72222 0.83786H63.2778C64.3324 0.83786 65.2158 1.20941 65.928 1.95251C66.6427 2.69819 67 3.62124 67 4.72165C67 5.82205 66.6427 6.7451 65.928 7.49079C65.2158 8.23388 64.3324 8.60543 63.2778 8.60543H3.72222Z" fill="white"/>
+                </svg>
+                
+        </li>
+      </ol>
+    </header>
+    <!--Section 1  -->
+    <div class="beanContainer">
+      <img src="/assets/sample1.svg" class="beanImg" alt="sample" />
+
+      <div class="bean bean2">
+        It's not only writers who can benefit from this free online tool. If
+        you're a programmer who's working on a ......
+      </div>
+    </div>
+    <!-- social media icons -->
+    <div id="socialMedia">
+      <div class="whatsapp">
+        <svg
+          width="88"
+          height="85"
+          viewBox="0 0 88 85"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <rect
+            x="1.5"
+            y="1.5"
+            width="85"
+            height="82"
+            rx="9.5"
+            fill="white"
+            stroke="black"
+            stroke-width="3" />
+          <g clip-path="url(#clip0_4269_86)">
+            <path
+              d="M10.4938 41.8953C10.4922 47.66 12.0409 53.2888 14.9858 58.2501L10.2122 75.2015L28.049 70.6529C32.9825 73.265 38.51 74.6337 44.1272 74.634H44.1419C62.6851 74.634 77.7797 59.9588 77.7876 41.9211C77.7911 33.1805 74.2944 24.9615 67.9414 18.7779C61.5894 12.5949 53.1416 9.18795 44.1406 9.18396C25.5952 9.18396 10.5017 23.8584 10.4941 41.8953"
+              fill="url(#paint0_linear_4269_86)" />
+            <path
+              d="M9.29258 41.8846C9.29066 47.8568 10.8949 53.6869 13.9448 58.8259L9 76.3849L27.4764 71.6733C32.5673 74.3728 38.2991 75.7961 44.1315 75.7982H44.1466C63.355 75.7982 78.9918 60.5952 79 41.9118C79.0033 32.8571 75.3808 24.3426 68.8008 17.9375C62.22 11.5332 53.47 8.00372 44.1466 8C24.9348 8 9.30023 23.201 9.29258 41.8846ZM20.2957 57.9408L19.6058 56.8758C16.7057 52.391 15.175 47.2084 15.1772 41.8868C15.1835 26.3574 28.1784 13.723 44.1575 13.723C51.8958 13.7262 59.1681 16.66 64.638 21.983C70.1075 27.3065 73.1173 34.3831 73.1154 41.9096C73.1082 57.439 60.1131 70.075 44.1466 70.075H44.1351C38.9362 70.0724 33.8374 68.7145 29.3908 66.1485L28.3326 65.5381L17.3683 68.3339L20.2957 57.9406V57.9408Z"
+              fill="url(#paint1_linear_4269_86)" />
+            <path
+              d="M35.4354 27.7187C34.783 26.3084 34.0964 26.28 33.476 26.2552C32.9679 26.234 32.3871 26.2356 31.8069 26.2356C31.2261 26.2356 30.2825 26.448 29.4849 27.2951C28.6864 28.1429 26.4366 30.1916 26.4366 34.3586C26.4366 38.5258 29.5573 42.5529 29.9924 43.1186C30.428 43.6832 36.017 52.508 44.8687 55.903C52.2253 58.7243 53.7224 58.1632 55.319 58.0217C56.9158 57.8807 60.4716 55.9734 61.1971 53.9957C61.923 52.0182 61.923 50.3231 61.7054 49.9689C61.4877 49.616 60.9069 49.404 60.036 48.9806C59.1649 48.557 54.8834 46.5079 54.0852 46.2253C53.2868 45.9428 52.7063 45.8019 52.1255 46.65C51.5447 47.4967 49.877 49.404 49.3687 49.9689C48.8609 50.535 48.3526 50.6055 47.482 50.1819C46.6105 49.7569 43.8059 48.8636 40.4784 45.9785C37.8895 43.7334 36.1417 40.961 35.6337 40.113C35.1256 39.2662 35.5792 38.8072 36.0159 38.3852C36.4072 38.0057 36.8871 37.3961 37.323 36.9018C37.7572 36.4071 37.9021 36.0542 38.1925 35.4894C38.4831 34.924 38.3377 34.4293 38.1203 34.0057C37.9021 33.5821 36.2098 29.3933 35.4354 27.7187Z"
+              fill="white" />
+          </g>
+          <defs>
+            <linearGradient
+              id="paint0_linear_4269_86"
+              x1="43.9999"
+              y1="75.2015"
+              x2="43.9999"
+              y2="9.18396"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#1FAF38" />
+              <stop offset="1" stop-color="#60D669" />
+            </linearGradient>
+            <linearGradient
+              id="paint1_linear_4269_86"
+              x1="44"
+              y1="76.3849"
+              x2="44"
+              y2="8"
+              gradientUnits="userSpaceOnUse">
+              <stop stop-color="#F9F9F9" />
+              <stop offset="1" stop-color="white" />
+            </linearGradient>
+            <clipPath id="clip0_4269_86">
+              <rect
+                width="70"
+                height="68.6118"
+                fill="white"
+                transform="translate(9 8)" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+
+      <div class="facebook">
+        <svg
+          width="88"
+          height="85"
+          viewBox="0 0 88 85"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <rect
+            x="1.5"
+            y="1.5"
+            width="85"
+            height="82"
+            rx="9.5"
+            fill="white"
+            stroke="black"
+            stroke-width="3" />
+          <path
+            d="M77 43.1895C77 25.9641 62.673 12 45 12C27.327 12 13 25.9639 13 43.1895C13 58.7569 24.702 71.6603 40 74V52.2052H31.875V43.1895H40V36.318C40 28.5012 44.7775 24.1834 52.0868 24.1834C55.588 24.1834 59.25 24.7925 59.25 24.7925V32.4681H55.215C51.2395 32.4681 50 34.8723 50 37.339V43.1895H58.875L57.4562 52.2052H50V74C65.298 71.6603 77 58.7571 77 43.1895Z"
+            fill="#1877F2" />
+        </svg>
+      </div>
+      <div class="twitter">
+        <svg
+          width="88"
+          height="85"
+          viewBox="0 0 88 85"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <rect
+            x="1.5"
+            y="1.5"
+            width="85"
+            height="82"
+            rx="9.5"
+            fill="white"
+            stroke="black"
+            stroke-width="3" />
+          <path
+            d="M72 24.5638C69.9405 25.5231 67.7559 26.1529 65.519 26.432C67.849 24.9636 69.638 22.6383 70.4804 19.8677C68.2655 21.2498 65.8422 22.2236 63.3152 22.747C61.2567 20.4411 58.3243 19 55.0787 19C48.8469 19 43.7945 24.3125 43.7945 30.8649C43.7945 31.795 43.8944 32.7004 44.0866 33.569C34.7087 33.0741 26.3943 28.3505 20.8287 21.1719C19.8576 22.9243 19.3012 24.9627 19.3012 27.1369C19.3012 31.2534 21.2934 34.885 24.321 37.0128C22.5291 36.9538 20.7766 36.4449 19.2099 35.5286C19.2092 35.5783 19.2092 35.628 19.2092 35.6779C19.2092 41.4267 23.0988 46.2223 28.2606 47.3124C26.599 47.7876 24.856 47.8571 23.1649 47.5157C24.6007 52.2296 28.7681 55.6598 33.7056 55.7558C29.8438 58.938 24.9782 60.835 19.6918 60.835C18.7808 60.835 17.8828 60.7787 17 60.6692C21.9936 64.0357 27.9248 66 34.2971 66C55.0525 66 66.402 47.9201 66.402 32.2409C66.402 31.7263 66.3913 31.2146 66.3694 30.7058C68.5785 29.0266 70.4852 26.9467 72 24.5638Z"
+            fill="#55ACEE" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- Section 2 cards  -->
+    <div>
+      <ol class="cardLists">
+        <li class="card" style="background-color: #929dff">
+          <div class="cardText">Total Question's</div>
+          <div class="cardText">200,000</div>
+        </li>
+        <li class="card" style="background-color: #734cf2">
+          <div class="cardText">Total Answer’s</div>
+          <div class="cardText">105,000</div>
+        </li>
+        <li class="card" style="background-color: #d288ff">
+          <div class="cardText">Participated</div>
+          <div class="cardText">10,000</div>
+        </li>
+        <li class="card" style="background-color: #000000">
+          <div class="cardText">Total Passed</div>
+          <div class="cardText">6,000</div>
+        </li>
+      </ol>
+    </div>
+
+    <!-- Info Card -->
+    <div id="information">
+      <ol class="options">
+        <li><h1>Your Info</h1></li>
+        <li><h1>Bookmarks</h1></li>
+        <li><h1>Setting</h1></li>
+      </ol>
+      <div class="info">
+        <div class="infoDetialContainer">
+          <h1 class="infoTitle">Your Information</h1>
+          <div class="personalInfo">
+            <ol class="infoDetail key">
+              <li>Name:<span>Omkar Sonawane </span></li>
+              <li>Email:<span> OmkarSonawane@gmail.com</span></li>
+              <li>Phone:<span>7841935494</span></li>
+              <li>Marks:<span>500.0</span></li>
+            </ol>
+
+          </div>
+        </div>
+        <div class="nextButton">
+          <button class="btnNext">
+            <p>Next</p>
+            <svg
+              width="40"
+              height="24"
+              viewBox="0 0 40 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M39.0607 13.0607C39.6464 12.4749 39.6464 11.5251 39.0607 10.9393L29.5147 1.3934C28.9289 0.807611 27.9792 0.807611 27.3934 1.3934C26.8076 1.97919 26.8076 2.92893 27.3934 3.51472L35.8787 12L27.3934 20.4853C26.8076 21.0711 26.8076 22.0208 27.3934 22.6066C27.9792 23.1924 28.9289 23.1924 29.5147 22.6066L39.0607 13.0607ZM0 13.5H38V10.5H0L0 13.5Z"
+                fill="white" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- chat Icon -->
+    <div id="chat">
+      <svg
+        width="100"
+        height="100"
+        viewBox="0 0 190 190"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_4269_3)">
+          <circle cx="91" cy="80" r="60" fill="white" />
+        </g>
+        <path
+          d="M117.88 91.9405C119.28 88.2837 120.04 84.3688 120.04 80.0666C120.04 76.9691 119.6 74.0006 118.84 71.2473C116.24 71.8926 113.52 72.2367 110.68 72.2367C104.864 72.2435 99.1315 70.7461 93.9661 67.871C88.8007 64.9959 84.3537 60.8273 81 55.7166C77.4124 65.0529 70.6445 72.5629 62.08 76.711C61.92 77.7865 61.92 78.9481 61.92 80.0666C61.92 84.1739 62.6722 88.241 64.1336 92.0356C65.595 95.8303 67.737 99.2782 70.4373 102.182C75.8909 108.048 83.2875 111.343 91 111.343C95.2 111.343 99.24 110.354 102.88 108.59C105.16 113.279 106.2 115.602 106.12 115.602C99.56 117.968 94.48 119.13 91 119.13C81.32 119.13 72.08 115.043 65.28 107.686C61.144 103.252 58.0695 97.8043 56.32 91.8114H51V72.2367H55.36C56.681 65.3211 59.718 58.9191 64.1488 53.71C68.5795 48.5009 74.2388 44.679 80.5261 42.6499C86.8134 40.6208 93.4941 40.4602 99.8595 42.1851C106.225 43.91 112.037 47.456 116.68 52.4469C121.721 57.8472 125.159 64.7343 126.56 72.2367H131V91.8114H130.76L116.52 105.879L95.32 103.298V96.1136H114.64L117.88 91.9405ZM80.08 79.0771C81.28 79.0771 82.44 79.5934 83.28 80.5399C84.1242 81.4552 84.5979 82.6923 84.5979 83.9816C84.5979 85.2709 84.1242 86.5079 83.28 87.4233C82.44 88.3267 81.28 88.843 80.08 88.843C77.56 88.843 75.52 86.6919 75.52 83.9816C75.52 81.2712 77.56 79.0771 80.08 79.0771ZM101.88 79.0771C104.4 79.0771 106.4 81.2712 106.4 83.9816C106.4 86.6919 104.4 88.843 101.88 88.843C99.36 88.843 97.32 86.6919 97.32 83.9816C97.32 82.6808 97.8004 81.4334 98.6556 80.5136C99.5108 79.5938 100.671 79.0771 101.88 79.0771Z"
+          fill="black" />
+        <defs>
+          <filter
+            id="filter0_d_4269_3"
+            x="0"
+            y="0"
+            width="190"
+            height="190"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha" />
+            <feOffset dx="4" dy="15" />
+            <feGaussianBlur stdDeviation="17.5" />
+            <feComposite in2="hardAlpha" operator="out" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_4269_3" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_4269_3"
+              result="shape" />
+          </filter>
+        </defs>
+      </svg>
+    </div>
+
+    <script>
+      let isDragging = false;
+      let offsetX, offsetY;
+
+      const chatIcon = document.getElementById("chat");
+
+      chatIcon.addEventListener("mousedown", (e) => {
+        isDragging = true;
+        offsetX = e.clientX - chatIcon.getBoundingClientRect().left;
+        offsetY = e.clientY - chatIcon.getBoundingClientRect().top;
+        chatIcon.classList.add("draggable");
+      });
+
+      document.addEventListener("mousemove", (e) => {
+        if (isDragging) {
+          const x = e.clientX - offsetX;
+          const y = e.clientY - offsetY;
+          const maxX = window.innerWidth - chatIcon.offsetWidth;
+          const maxY = window.innerHeight - chatIcon.offsetHeight;
+          chatIcon.style.left = Math.min(Math.max(x, 0), maxX) + "px";
+          chatIcon.style.top = Math.min(Math.max(y, 0), maxY) + "px";
+        }
+      });
+
+      document.addEventListener("mouseup", () => {
+        isDragging = false;
+        chatIcon.classList.remove("draggable");
+      });
+    </script>
+  </body>
+</html>

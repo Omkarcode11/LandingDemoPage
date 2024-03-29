@@ -1,0 +1,293 @@
+/* All */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Home", sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+/* navbar */
+
+#navbar {
+  z-index: 20;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6f6af7;
+  /* padding: 0.5rem 1rem; */
+}
+
+.logo {
+  font-family: "Delius Unicase", cursive;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+}
+
+.search {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.searchSvg {
+  width: 1rem;
+}
+
+.menuList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------- */
+/* bean */
+
+.beanContainer {
+  margin-top: 3rem;
+  padding: 5rem 0rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: auto;
+}
+
+.bean {
+  border-radius: 1rem;
+  padding: 1rem;
+  height: 20rem;
+  width: 50%;
+}
+
+.beanImg {
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  height: 22rem;
+  min-width: 22rem;
+  object-fit: cover;
+}
+
+.bean2 {
+  background-color: #e5d8ff;
+  font-size: 1.5rem;
+  color: #6f7373;
+  width: 60%;
+  min-width: 20rem;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* card Lists */
+
+.cardLists{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card{
+  width: 15rem;
+  padding:1rem;
+  margin: 1rem;
+  color: white;
+  border-radius: 0.3rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+
+.cardText{
+  margin: 0.5rem 0rem;
+}
+
+li{
+  list-style: none;
+}
+
+/* Info */
+
+
+#information{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: #483EFF;
+  margin: 8rem 3rem 3rem 3rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  height: auto;
+}
+
+.options{
+  /* padding: 1rem 2rem; */
+  /* height: 10rem; */
+  display: flex;
+  gap: 1rem;
+  flex-flow:column wrap;
+  justify-content: space-between;
+}
+
+.options>li{
+   
+  padding: 1rem 3rem;
+  color: white;
+  border: 0.2rem solid white;
+  border-radius: 0.5rem;
+  /* margin: 1rem 0rem; */
+  text-align: center;
+ 
+}
+
+.key>li>span{
+  color:#143565 ;
+  font-weight: 400;
+}
+
+
+
+
+.info{
+  position: relative;
+  background-color: white;
+  width: auto;
+  border-radius: 1rem;
+  padding: 3rem ;
+  overflow: auto;
+  margin-top: 0.5rem;
+
+  height: 30rem;
+}
+
+.infoTitle{
+   letter-spacing:0.3rem ;
+}
+
+.infoDetialContainer{
+  /* background-color: white; */
+}
+
+.key{
+  letter-spacing:0.2rem ;
+
+}
+
+
+.personalInfo{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.infoDetail{
+  max-width: 80%;
+}
+
+.infoDetail>li{
+  display: flex;
+  flex-wrap: row wrap;
+   font-size: 1.3rem;
+   margin: 0.8rem 0rem;
+   text-wrap: wrap;
+}
+
+.key{
+  font-weight: 800;
+}
+
+.nextButton{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.btnNext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  background-color: black;
+  border-radius: 0.3rem;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border: none;
+}
+
+#chat {
+  z-index: 16;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  cursor: grab;
+}
+
+
+
+/* social media icons */
+
+#socialMedia{
+  z-index: 13;
+  position: sticky;
+   top: 13rem;
+   right:0;
+   display: flex;
+   float: right;
+   flex-flow: column;
+   gap: 0.5rem;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 860px) {
+  .hamburger {
+    display: block;
+  }
+  .menu{
+    display: none;
+  }
+
+  #information{
+    margin: 8rem 1rem;
+  }
+}
